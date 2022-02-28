@@ -1,4 +1,4 @@
-<h1 align="center" > Minimal APi Auth </h1>
+<h1 align="center" > Refresh Token Authentication </h1>
 <h2 align="center">
     <a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0">🔗 Overview of ASP.NET Core authentication</a>
 </h2>
@@ -25,8 +25,8 @@
 <h3 name = "Features" >Features</h3>
 <ul>
  <li>Validar usuário</li>
- <li>Bloquear acesso a certos endpoints para user não permitidos</li>
- <li>Controlar o acesso a certos endpoints depedendo do usuário</li>
+ <li>Definir um tempo de vida para o token</li>
+ <li>Criar um novo token a partir do antigo quando o tempo de vida tiver acabando</li>
  </ul>
  
   
