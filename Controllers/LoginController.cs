@@ -32,7 +32,8 @@ namespace ApiAuth.Controllers
                refreshToken = refreshToken
             };
         }
-
+        [HttpPost]
+        [Route("refresh")]
         public IActionResult RefreshToken(string token, string refreshToken)
         {
             var principal = TokenService.GetPrincipalFromExpiredToken(token);
